@@ -1,0 +1,28 @@
+version: '4'
+services:
+  mongo:
+    image: mongo
+    ports:
+      - '27017:27017'
+    container_name: mongo-db-barber
+    restart: always
+    networks:
+      - barber
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: barber
+      MONGO_INITDB_ROOT_PASSWORD: senha123
+  
+  api-barber:
+    build: .
+    container_name: api-barber
+    networks:
+      - barber
+    ports:
+      - '8090:8090'
+    depends_on:
+      - mongo
+
+networks:
+  barber:
+    driver: bridge
+  
