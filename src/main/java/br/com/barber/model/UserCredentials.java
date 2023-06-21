@@ -1,4 +1,4 @@
-package br.com.podologia.model;
+package br.com.barber.model;
 
 
 import lombok.Builder;

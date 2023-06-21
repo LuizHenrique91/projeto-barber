@@ -1,4 +1,4 @@
-package br.com.podologia.dto;
+package br.com.barber.dto;
 
 import lombok.Data;
 

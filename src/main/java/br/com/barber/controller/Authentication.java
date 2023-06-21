@@ -1,8 +1,8 @@
-package br.com.podologia.controller;
+package br.com.barber.controller;
 
-import br.com.podologia.dto.AuthenticationDto;
-import br.com.podologia.dto.TokenDto;
-import br.com.podologia.service.AuthenticationService;
+import br.com.barber.dto.AuthenticationDto;
+import br.com.barber.dto.TokenDto;
+import br.com.barber.service.AuthenticationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

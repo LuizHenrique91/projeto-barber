@@ -1,7 +1,7 @@
-package br.com.podologia.service;
+package br.com.barber.service;
 
-import br.com.podologia.dto.AuthenticationDto;
-import br.com.podologia.dto.TokenDto;
+import br.com.barber.dto.AuthenticationDto;
+import br.com.barber.dto.TokenDto;
 
 public interface AuthenticationService {
 

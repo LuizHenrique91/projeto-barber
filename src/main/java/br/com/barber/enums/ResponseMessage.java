@@ -1,4 +1,4 @@
-package br.com.podologia.enums;
+package br.com.barber.enums;
 
 import lombok.Getter;
 

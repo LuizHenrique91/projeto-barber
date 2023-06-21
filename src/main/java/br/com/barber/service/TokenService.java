@@ -1,6 +1,6 @@
-package br.com.podologia.service;
+package br.com.barber.service;
 
-import br.com.podologia.model.UserCredentials;
+import br.com.barber.model.UserCredentials;
 
 public interface TokenService {
     Boolean isValid(String token);

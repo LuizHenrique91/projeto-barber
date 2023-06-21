@@ -1,4 +1,4 @@
-package br.com.podologia.exception;
+package br.com.barber.exception;
 
 public class CacheException extends RuntimeException{
 

@@ -1,9 +1,9 @@
-package br.com.podologia.controller;
+package br.com.barber.controller;
 
-import br.com.podologia.dto.RegisterCredentialsDto;
-import br.com.podologia.dto.SuccessResponseDto;
-import br.com.podologia.dto.ValidationEmailDto;
-import br.com.podologia.service.RegisterUserService;
+import br.com.barber.dto.RegisterCredentialsDto;
+import br.com.barber.dto.SuccessResponseDto;
+import br.com.barber.dto.ValidationEmailDto;
+import br.com.barber.service.RegisterUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,4 +1,4 @@
-package br.com.podologia.dto.error;
+package br.com.barber.dto.error;
 
 import lombok.Builder;
 import lombok.Data;

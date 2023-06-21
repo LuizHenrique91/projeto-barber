@@ -1,6 +1,6 @@
-package br.com.podologia.repository;
+package br.com.barber.repository;
 
-import br.com.podologia.model.UserCredentials;
+import br.com.barber.model.UserCredentials;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 import java.util.Optional;

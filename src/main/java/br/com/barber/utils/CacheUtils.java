@@ -1,7 +1,7 @@
-package br.com.podologia.utils;
+package br.com.barber.utils;
 
-import br.com.podologia.dto.RegisterCredentialsDto;
-import br.com.podologia.exception.CacheException;
+import br.com.barber.dto.RegisterCredentialsDto;
+import br.com.barber.exception.CacheException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.Cache;
 import org.springframework.cache.CacheManager;

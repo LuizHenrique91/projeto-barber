@@ -1,14 +1,14 @@
-package br.com.podologia.service.impl;
+package br.com.barber.service.impl;
 
-import br.com.podologia.dto.RegisterCredentialsDto;
-import br.com.podologia.dto.SuccessResponseDto;
-import br.com.podologia.dto.ValidationEmailDto;
-import br.com.podologia.enums.ResponseMessage;
-import br.com.podologia.exception.BadRequestException;
-import br.com.podologia.mapper.UserCredentialsMapper;
-import br.com.podologia.repository.CredenciaisRepository;
-import br.com.podologia.service.RegisterUserService;
-import br.com.podologia.utils.CacheUtils;
+import br.com.barber.dto.RegisterCredentialsDto;
+import br.com.barber.dto.SuccessResponseDto;
+import br.com.barber.dto.ValidationEmailDto;
+import br.com.barber.enums.ResponseMessage;
+import br.com.barber.exception.BadRequestException;
+import br.com.barber.mapper.UserCredentialsMapper;
+import br.com.barber.repository.CredenciaisRepository;
+import br.com.barber.service.RegisterUserService;
+import br.com.barber.utils.CacheUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;

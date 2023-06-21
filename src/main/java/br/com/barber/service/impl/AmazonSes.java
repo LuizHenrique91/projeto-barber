@@ -1,4 +1,4 @@
-package br.com.podologia.service.impl;
+package br.com.barber.service.impl;
 
 import com.amazonaws.regions.Regions;
 import com.amazonaws.services.simpleemail.AmazonSimpleEmailService;

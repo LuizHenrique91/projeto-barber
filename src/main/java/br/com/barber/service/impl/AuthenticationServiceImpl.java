@@ -1,13 +1,13 @@
-package br.com.podologia.service.impl;
+package br.com.barber.service.impl;
 
-import br.com.podologia.dto.AuthenticationDto;
-import br.com.podologia.dto.TokenDto;
-import br.com.podologia.exception.BadRequestException;
-import br.com.podologia.exception.NotFoundException;
-import br.com.podologia.model.UserCredentials;
-import br.com.podologia.repository.CredenciaisRepository;
-import br.com.podologia.service.AuthenticationService;
-import br.com.podologia.service.TokenService;
+import br.com.barber.dto.AuthenticationDto;
+import br.com.barber.dto.TokenDto;
+import br.com.barber.exception.BadRequestException;
+import br.com.barber.exception.NotFoundException;
+import br.com.barber.model.UserCredentials;
+import br.com.barber.repository.CredenciaisRepository;
+import br.com.barber.service.AuthenticationService;
+import br.com.barber.service.TokenService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;

@@ -1,4 +1,4 @@
-package br.com.podologia.configuration;
+package br.com.barber.configuration;
 
 import org.springframework.cache.CacheManager;
 import org.springframework.cache.annotation.EnableCaching;

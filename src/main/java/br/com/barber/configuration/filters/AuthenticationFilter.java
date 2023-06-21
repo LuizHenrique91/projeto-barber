@@ -1,6 +1,6 @@
-package br.com.podologia.configuration.filters;
+package br.com.barber.configuration.filters;
 
-import br.com.podologia.service.TokenService;
+import br.com.barber.service.TokenService;
 import org.springframework.web.filter.OncePerRequestFilter;
 
 import javax.servlet.FilterChain;

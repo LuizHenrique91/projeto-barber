@@ -1,7 +1,7 @@
-package br.com.podologia.service.impl;
+package br.com.barber.service.impl;
 
-import br.com.podologia.model.UserCredentials;
-import br.com.podologia.service.TokenService;
+import br.com.barber.model.UserCredentials;
+import br.com.barber.service.TokenService;
 import io.jsonwebtoken.*;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;

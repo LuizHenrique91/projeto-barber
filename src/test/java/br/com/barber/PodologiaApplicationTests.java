@@ -1,4 +1,4 @@
-package br.com.podologia;
+package br.com.barber;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,9 +1,9 @@
-package br.com.podologia.exception.handler;
+package br.com.barber.exception.handler;
 
-import br.com.podologia.dto.error.ExceptionDto;
-import br.com.podologia.exception.CacheException;
-import br.com.podologia.exception.NotFoundException;
-import br.com.podologia.exception.BadRequestException;
+import br.com.barber.dto.error.ExceptionDto;
+import br.com.barber.exception.CacheException;
+import br.com.barber.exception.NotFoundException;
+import br.com.barber.exception.BadRequestException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.FieldError;

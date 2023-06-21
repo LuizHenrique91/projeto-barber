@@ -1,7 +1,7 @@
-package br.com.podologia.configuration;
+package br.com.barber.configuration;
 
-import br.com.podologia.configuration.filters.AuthenticationFilter;
-import br.com.podologia.service.TokenService;
+import br.com.barber.configuration.filters.AuthenticationFilter;
+import br.com.barber.service.TokenService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

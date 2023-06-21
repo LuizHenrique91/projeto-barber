@@ -1,7 +1,7 @@
-package br.com.podologia.mapper;
+package br.com.barber.mapper;
 
-import br.com.podologia.dto.RegisterCredentialsDto;
-import br.com.podologia.model.UserCredentials;
+import br.com.barber.dto.RegisterCredentialsDto;
+import br.com.barber.model.UserCredentials;
 
 public class UserCredentialsMapper {
 

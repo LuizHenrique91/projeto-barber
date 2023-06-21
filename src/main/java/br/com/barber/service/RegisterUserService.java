@@ -1,8 +1,8 @@
-package br.com.podologia.service;
+package br.com.barber.service;
 
-import br.com.podologia.dto.RegisterCredentialsDto;
-import br.com.podologia.dto.SuccessResponseDto;
-import br.com.podologia.dto.ValidationEmailDto;
+import br.com.barber.dto.RegisterCredentialsDto;
+import br.com.barber.dto.SuccessResponseDto;
+import br.com.barber.dto.ValidationEmailDto;
 
 import java.util.Map;
 import java.util.UUID;
